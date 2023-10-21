@@ -7,7 +7,7 @@ let templeList = [];
 const displayTemples = (temples) => {
     temples.forEach(temple => {
         let article = document.createElement("article");
-        let templeName = doucment.createElement("h3");
+        let templeName = document.createElement("h3");
         templeName.textContent = temple.templeName;
         let img = document.createElement("img");
         img.setAttribute("src", temple.imageUrl);
