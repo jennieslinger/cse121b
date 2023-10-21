@@ -29,7 +29,7 @@ document.getElementById('subtractNumbers').addEventListener('click', subtractNum
 
 /* Arrow Function - Multiply Numbers */
 let multiplyNumbers = (factor1, factor2) => {factor1 * factor2};
-document.getElementById('product').value = multiply(factor1, factor2);
+document.getElementById('product').value = multiplyNumbers(factor1, factor2);
 
 document.getElementById('multiplyNumbers').addEventListener('click', multiplyNumbers);
 
